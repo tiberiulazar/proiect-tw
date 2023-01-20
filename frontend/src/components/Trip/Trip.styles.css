@@ -1,0 +1,56 @@
+.trip {
+  display: flex;
+  width: 100%;
+  background-color: #d3756b50;
+  padding: 1rem 2rem;
+  border-left: 2px solid #d3756b;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0 2px 4px #00000020;
+  align-items: center;
+}
+
+.trip__info {
+  flex: 1;
+}
+
+.trip:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.trip__name {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.trip__difficulty {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  background-color: #d3756b;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+
+.trip__completed {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  background-color: #658864;
+  color: #ffffff;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+
+.trip__btn:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.trip__coord {
+  font-size: 1.2rem;
+}
+
+.trip__actions {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.header__title {
+  font-size: 2.8rem;
+  line-height: 3.4rem;
+}
+
+.header__profile {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 2.5rem;
+  background-color: #ffc3a1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 4px #00000020;
+  cursor: pointer;
+}

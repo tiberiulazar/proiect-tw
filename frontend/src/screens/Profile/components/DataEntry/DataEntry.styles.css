@@ -1,0 +1,20 @@
+.data-entry {
+  padding: 1rem 3rem;
+  background-color: #ffc3a1;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px #00000020;
+}
+
+.data-entry:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.data-entry__name {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.data-entry__value {
+  font-size: 1.8rem;
+}

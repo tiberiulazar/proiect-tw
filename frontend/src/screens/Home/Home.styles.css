@@ -1,0 +1,13 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.home__main {
+  flex: 1;
+}
+
+.home__second {
+  flex: 1;
+}
